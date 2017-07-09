@@ -2,8 +2,7 @@ README
 
 This is the README file for creating R-PDOT plots and calculating inter-rater reliability between two observers. Note that this has only been tested on macs, though in theory it would work on any computer with Python installed. The built-in software on macs seems to work fine — installing a different version of python or related packages has not been necessary, but we have not done extensive testing around this issue. 
 
-WHAT IS IN THIS PACKAGE
-The folder “rpdot_plots” contains the following:
+WHAT IS IN THIS REPOSITORY
 
 README - this file
 
@@ -21,13 +20,15 @@ IRR - a subdirectory containing files relevant to calculating inter-rater reliab
 
 CREATING VISUALIZATIONS
 
-Open a Terminal and navigate to the rpdot_plots directory. My folder is on the desktop, so I would type:
+Download files from git.
 
-cd Desktop/rpdot_plots
+Open a Terminal and navigate to the appropriate directory. I moved my folder is on the desktop, so I would type:
+
+cd Desktop/R-PDOT-files-master
 
 in the Terminal window. You can type “ls” to verify that the files listed above are in the directory and that you have navigated to the correct location.
 
-In the main rdpot_plots directory, type
+In the main directory, type
 
 python rpdotplots.py SessionC
 
@@ -71,7 +72,7 @@ python IRR.py AO CT Clip1
 
 
 COLLECTING AND DOWNLOADING NEW DATA FROM GORP
-The R-PDOT interface is be available to any GORP user. The GORP website is gorp.ucdavis.edu. You need approval from an “administrator” at your home institution to make an account. Alternatively, Chandra and I can approve users for the “University of Maryland - Turpen Research Group”. 
+The R-PDOT interface is available to any GORP user. The GORP website is gorp.ucdavis.edu. You need approval from an “administrator” at your home institution to make an account. Alternatively, Chandra Turpen and I (Alice) can approve users for the “University of Maryland - Turpen Research Group”. 
 
 If/when you collect your own data, download it as “one row per observation” and follow the same procedure as outlined for the sample data above. 
 
