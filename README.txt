@@ -22,7 +22,7 @@ CREATING VISUALIZATIONS
 
 Download files from git.
 
-Open a Terminal and navigate to the appropriate directory. I moved my folder is on the desktop, so I would type:
+Open a Terminal and navigate to the appropriate directory. I moved my unzipped folder to the desktop, so I would type:
 
 cd Desktop/R-PDOT-files-master
 
